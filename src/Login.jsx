@@ -43,11 +43,9 @@ export default function Login() {
 
   return (
     <div className="flex flex-row min-h-screen ">
-      <div className=" w-1/12">
-       
-      </div>
-      <div className=" w-7/12 flex items-center ">
-        <div className="mx-auto  w-6/12 ">
+      
+      <div className=" flex items-center w-full">
+        <div className="mx-auto  w-3/12  border p-4 rounded-md border-rose-800 border-3">
           <h1 className="font-bold text-3xl">Login With Your Account</h1>
           <h1 className="font-thin text-sm">
             See what is going on with your business
@@ -104,9 +102,7 @@ export default function Login() {
           </button>
         </div>
       </div>
-      <div className="flex  relative">
-        
-      </div>
+   
     </div>
   );
 }
