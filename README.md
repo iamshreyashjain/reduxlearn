@@ -1,6 +1,7 @@
  RTK Query (Best for rapid development)
 RTK Query is Redux Toolkit’s built-in powerful data-fetching tool
 
+https://chatgpt.com/s/t_685ff6d54604819188d6adf8c3daf2fb
 
  RTK Query is a game-changer when it comes to API integration with Redux Toolkit — it gives you automatic caching, re-fetching, loading states, error handling, and even auto-generated hooks.
 
@@ -8,15 +9,15 @@ Let me walk you through how to set it up step by step.
 
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 ✅ You're importing:
-
-createApi: the core function to define an API slice.
-
-fetchBaseQuery: a small wrapper around fetch() — acts like Axios, handles GET, POST, etc. You can customize it or replace it with Axios if needed.
-
-
+ 
+--
 
 export const apiSlice = createApi({})
-✅ You're creating and exporting an API slice named apiSlice. T
+✅ You're creating and exporting an API slice named apiSlice.
+
+--
+
+createApi: the core function to define an API slice.
 
 --
 
@@ -25,7 +26,11 @@ reducerPath: 'api',
 
 --
 
-baseQuery: fetchBaseQuery({ baseUrl: 'https://jsonplaceholder.typicode.com/' }),
+fetchBaseQuery: a small wrapper around fetch() — acts like Axios, handles GET, POST, etc. You can customize it or replace it with Axios if needed.
+
+--
+
+baseUrl:
 ✅ This is the base configuration for all API requests. You're saying:
 
 --
