@@ -91,7 +91,6 @@ Because using [authApi.reducerPath] makes your code:
   Cleaner when you're injecting endpoints later
   Consistent if you're getting the path from a shared config
 
-
 --------------------------------------------------------------------------------
 
 What is "middleware" in Redux?
@@ -121,6 +120,8 @@ If you don’t add it, RTK Query won’t work properly.
 
 --------------------------------------------------------------------------------
 
+RTK Query provides a rich set of built-in state properties when you use its hooks
+const { data, error, isLoading, isFetching, isSuccess, isError, refetch, status } = useLoginMutation();
 
 LOGIN: 
 
