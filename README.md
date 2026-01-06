@@ -1,5 +1,10 @@
- RTK Query (Best for rapid development)
+RTK Query (Best for rapid development)
 RTK Query is Redux Toolkit’s built-in powerful data-fetching tool
+
+Credentials: 
+ - sergovolo.niranjan@gmail.com
+ - 17April@123
+
 
 https://chatgpt.com/s/t_685ff6d54604819188d6adf8c3daf2fb
 
